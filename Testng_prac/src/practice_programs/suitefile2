@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+   <parameter name="browser" value="chrome"/>
+   <parameter name="mobileno" value="9642774747"/>
+       <parameter name="password" value="phani019"/>
+      <classes>
+      <class name="practice_programs.Test1"/>
+    </classes>
+  </test> <!-- Test -->
+  </suite> <!-- Suite -->
