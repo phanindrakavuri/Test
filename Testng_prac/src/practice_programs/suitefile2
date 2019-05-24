@@ -4,7 +4,7 @@
   <test name="Test">
    <parameter name="browser" value="chrome"/>
    <parameter name="mobileno" value="9642774747"/>
-       <parameter name="password" value="phani019"/>
+   <parameter name="password" value="phani019"/>
       <classes>
       <class name="practice_programs.Test1"/>
     </classes>

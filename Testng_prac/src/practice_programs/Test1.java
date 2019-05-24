@@ -1,7 +1,9 @@
 package practice_programs;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
@@ -9,7 +11,7 @@ import org.testng.annotations.Test;
 
 public class Test1 
 {
-	public ChromeDriver driver;
+	public WebDriver driver;
 	@Test(priority=0)
 	@Parameters({"browser"})
 	public void launch(String x)
@@ -19,6 +21,11 @@ public class Test1
 			 System.setProperty("webdriver.chrome.driver","E:\\shiva\\drivers\\chromedriver.exe");
 			   driver=new ChromeDriver();
     	}
+		else if(x.equals("firefox"))
+		{
+			 System.setProperty("webdriver.gecko.driver","E:\\shiva\\drivers\\Firefoxdriver.exe");
+			   driver=new FirefoxDriver();
+   	}
 		driver.get("http://www.way2sms.com/");
 	}
 	@Test(priority=1,dependsOnMethods= {"launch"})

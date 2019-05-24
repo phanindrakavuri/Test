@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="6">
+  <test name="Iteration1">
+  <parameter name="m" value="9441072065"/>
+  <parameter name="mc" value="valid"/>
+  <parameter name="p" value="Satyamg"/>
+  <parameter name="pc" value="valid"/>
+    <classes>
+      <class name="tests.Test135"/>
+    </classes>
+  </test>
+    <test name="Iteration2">
+  <parameter name="m" value=""/>
+  <parameter name="mc" value="invalid"/>
+  <parameter name="p" value="Satyamg"/>
+  <parameter name="pc" value="valid"/>
+    <classes>
+      <class name="tests.Test135"/>
+    </classes>
+  </test>
+      <test name="Iteration3">
+  <parameter name="m" value="944"/>
+  <parameter name="mc" value="invalid"/>
+  <parameter name="p" value="Satyamg"/>
+  <parameter name="pc" value="valid"/>
+    <classes>
+      <class name="tests.Test135"/>
+    </classes>
+  </test>
+   <test name="Iteration4">
+	  <parameter name="m" value="9441072061"/>
+	  <parameter name="mc" value="invalid"/>
+	  <parameter name="p" value="Satyamg"/>
+	  <parameter name="pc" value="valid"/>
+	    <classes>
+	      <class name="tests.Test135"/>
+	    </classes>
+  </test>
+  <test name="Iteration5">
+	  <parameter name="m" value="9441072065"/>
+	  <parameter name="mc" value="valid"/>
+	  <parameter name="p" value=""/>
+	  <parameter name="pc" value="invalid"/>
+	    <classes>
+	      <class name="tests.Test135"/>
+	    </classes>
+  </test>
+    <test name="Iteration6">
+  <parameter name="m" value="9441072065"/>
+  <parameter name="mc" value="valid"/>
+  <parameter name="p" value="Asatyam"/>
+  <parameter name="pc" value="invalid"/>
+    <classes>
+      <class name="tests.Test135"/>
+    </classes>
+  </test>
+ </suite>

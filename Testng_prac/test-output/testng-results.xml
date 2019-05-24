@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7848" started-at="2019-03-12T05:43:39Z" finished-at="2019-03-12T05:43:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7848" started-at="2019-03-12T05:43:39Z" finished-at="2019-03-12T05:43:47Z">
+      <class name="tests.Test135">
+        <test-method status="PASS" signature="launch()[pri:1, instance:tests.Test135@7f9a81e8]" name="launch" duration-ms="5396" started-at="2019-03-12T05:43:39Z" finished-at="2019-03-12T05:43:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String)[pri:2, instance:tests.Test135@7f9a81e8]" name="login" duration-ms="0" started-at="2019-03-12T05:43:44Z" finished-at="2019-03-12T05:43:44Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'm' is required by @Test on method login but has not been marked @Optional or defined
+in C:\Users\mindq\AppData\Local\Temp\testng-eclipse-1598291310\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'm' is required by @Test on method login but has not been marked @Optional or defined
+in C:\Users\mindq\AppData\Local\Temp\testng-eclipse-1598291310\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:923)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="validations(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:tests.Test135@7f9a81e8]" name="validations" duration-ms="0" started-at="2019-03-12T05:43:44Z" finished-at="2019-03-12T05:43:44Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'm' is required by @Test on method validations but has not been marked @Optional or defined
+in C:\Users\mindq\AppData\Local\Temp\testng-eclipse-1598291310\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'm' is required by @Test on method validations but has not been marked @Optional or defined
+in C:\Users\mindq\AppData\Local\Temp\testng-eclipse-1598291310\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:923)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validations -->
+        <test-method status="PASS" signature="closesite()[pri:4, instance:tests.Test135@7f9a81e8]" name="closesite" duration-ms="2361" started-at="2019-03-12T05:43:44Z" finished-at="2019-03-12T05:43:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesite -->
+      </class> <!-- tests.Test135 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
